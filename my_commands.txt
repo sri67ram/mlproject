@@ -1,0 +1,50 @@
+conda activate venv/
+git init
+git add README.md
+git commit -m "First commit"
+git config --global user.email "sri67ram@gmail.com"
+git config --global user.name "Sriram"
+git commit -m "First commit"
+git branch -M main
+git remote add origin https://github.com/sri67ram/mlproject.git
+git remote -v
+git push -u origin main
+cls
+git pull
+Get-History | Export-Csv -Path "history.csv"
+doskey /history > my_commands.txt
+install -r requirements.txt
+pip install -r requirements.txt
+git add .
+git status
+git commit -m "setup"
+git push -u origin main
+git status
+git add .
+git commit -m "logging exception"
+git push -u origin main
+conda install python=3.11
+pip install -r requirements.txt
+git status
+git add .
+git commit -m "eda"
+pip install -r requirements.txt
+doskey /history > my_commands.txt
+git push -u origin main
+conda install setuptools -y
+pip install -r requirements.txt
+pip uninstall pandas -y
+pip cache purge
+pip install pandas
+conda install pandas --force-reinstall -y
+conda deactivate
+conda env remove -p venv
+conda create -p venv python=3.10 -y
+conda activate .\venv
+pip install -r requirements.txt
+pip install -e .
+conda activate .\venv
+pip install ipykernel
+python -m ipykernel install --user --name venv --display-name "Python (MLProject)"
+git add .
+doskey /history > my_commands.txt
